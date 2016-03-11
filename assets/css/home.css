@@ -1,0 +1,50 @@
+body {background: url('../img/bg.png') repeat;font-size:14px;}
+
+/* navbar */
+.navbar {
+	background: url('../img/bg2.png') repeat;
+	padding: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	box-shadow: none;
+	border:none;
+	border-bottom: 1px solid #c4c4c4;
+	margin-bottom: 0;
+	min-height: 125px;
+}
+
+.left_content {
+	position:relative;
+	top:122px;
+	background: url('../img/landing-photo.jpg') no-repeat left;
+	min-height: 440px;
+}
+
+.right_content {
+	position:relative;
+	top:120px;
+	min-height: 580px;
+}
+
+p{
+	text-align: justify;
+}
+
+@media (max-width: 767px) {
+	.navbar {min-height: 60px;}
+	.navbar-brand img {height:48px;width:48px;}
+	.navbar-brand .app-name {font-size:16px;}
+	.navbar-nav > li > a {
+	    line-height: 10px;
+	}
+} 
+
+@media (max-width: 479px) {
+	.navbar {min-height: 60px;}
+	.navbar-brand img {height:48px;width:48px;}
+	.navbar-brand .app-name {display: none;}
+	.navbar-nav > li > a {
+	    line-height: 10px;
+	}
+}
